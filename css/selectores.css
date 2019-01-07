@@ -1,0 +1,59 @@
+ /*Selector Universal */
+*{
+    border: 1px solid blue;
+    margin: 5px;
+}
+
+/*Selector de etiqueta */
+
+header{
+    background-color: green;
+    color: white;
+}
+
+article{
+    
+    background-color: coral;
+    font-size: 16px;
+    color: aqua;
+}
+
+/*Selectores descendentes */
+
+article header{
+    background-color: aqua;
+    color: red;
+}
+
+article a{
+    color: deeppink;
+    font-size: 20px;
+}
+ 
+/* Selectores de clase*/
+.Header {
+    background-color: purple;
+}
+
+.title-undertine {
+    
+    background-color: yellow;
+    color: blue;
+}
+
+.Header .header-wrapper {
+    background-color: aqua;
+}
+
+.Header .header-wrapper *{
+    background-color: green;
+    color: red;
+    border: 2px solid red;
+}
+
+/*Selector de ID*/
+
+#aboutme{
+    background-color: purple;
+    color: white;
+}
